@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
   </head>
   <body>
+    <button style="position: absolute; top: 20px; right: 20px" id="solution" onClick="myFunction()">+</button>
     <a href="https://drive.google.com/file/d/1NlO9Vd87jJOI6-_ykoBEL7dd6axVjbO_/view?usp=drive_link" target="_blank">Kot i krab</a><br/><br/>
     <h4>Założenia gry:</h4>
     <ul>
@@ -17,6 +18,13 @@
     <p>Tworzenie listy z losowo wybranymi liczbami z zakresu od 1 do 100. Do działania skryptu potrzebna jest lista o nazwie "liczby" oraz zmienna "liczba".</p><br/>
     <img src="https://raw.githubusercontent.com/blichowo/klasa6/main/liczbylista.jpg" />
     <img src="https://raw.githubusercontent.com/blichowo/klasa6/main/liczbylista2.jpg" /><br/>
-    <p>Zmodyfikuj program tak, aby znajdował największy i najmniejszy element na liście.</p>
+    <p>Zmodyfikuj program tak, aby znajdował największy i najmniejszy element na liście.</p><br/>
+    <img src="https://github.com/blichowo/klasa6/blob/main/minmax.jpg" style="display: none" id="picture1"/><br/><br/>
+     <script>
+      function myFunction(){
+        picture = document.getElementById("picture1")
+        picture.style.display = "block"
+      }
+    </script>
   </body>
 </html>
